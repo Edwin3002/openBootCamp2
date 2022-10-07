@@ -20,11 +20,19 @@ void rice(){
   final lastName = 'ayala';
   const month = 12;
 
-  print(name);
+  print(name.toUpperCase());
   print(age);
   print(money);
   print(dev);
   print(peso);
   print(lastName);
   print(month);
+  String letters = 'a e b c d e';
+  print(letters.contains('a'));
+  print(letters.contains('a  '));
+
+  String email = ('vargas@gmail.com');
+  print(email.split('@')[1]);
+  print(email.startsWith('varg'));
+  print(email.indexOf('@'));
 }
