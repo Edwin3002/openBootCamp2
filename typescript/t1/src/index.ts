@@ -1,2 +1,7 @@
-console.log('hi paco');
-console.log('bye pepe');
+function saludo(name?: string ){
+    console.log(name);
+    
+}
+
+saludo('paco');
+saludo(' rosa');
