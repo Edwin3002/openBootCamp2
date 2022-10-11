@@ -54,3 +54,36 @@ myTimer.start = () => {
     console.log(' hemos comenzado');
 };
 
+class Student {
+    //propiedades
+    private name: string;
+    lastName?: string;
+
+    constructor (name: string, lastName: string){
+        this.name = name;
+        if(lastName){
+            this.lastName = lastName;
+        }
+    }
+}
+
+class Curso {
+    name: string;
+    duration: number;
+
+    constructor(name: string, duration: number){
+        this.name = name;
+        this.duration = duration;
+    }
+
+    get nombre (): string{
+        return this.name
+    }
+    set nombre (name: string){
+        this.name = name;
+    }
+}
+
+const cursojs = new Curso('ts', 30);
+
+const paco = new Student('paquito', 'campos')
