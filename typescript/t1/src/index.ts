@@ -56,13 +56,15 @@ myTimer.start = () => {
 
 class Student {
     //propiedades
-    private name: string;
+     name: string;
     lastName?: string;
+    // private age?: number;
 
     constructor (name: string, lastName: string){
         this.name = name;
         if(lastName){
             this.lastName = lastName;
+            // this.age = age;
         }
     }
 }
@@ -87,3 +89,29 @@ class Curso {
 const cursojs = new Curso('ts', 30);
 
 const paco = new Student('paquito', 'campos')
+
+
+//herencia //polimorfismo  
+
+
+let birthDay  = new Date(2003, 1, 17);
+
+
+if(birthDay instanceof Date){
+
+}
+
+
+class Employ extends Student{
+    sueldo: number;
+    constructor(name: string, lastName: string, sueldo: number){
+        super(name, lastName)
+        this.name = name;
+        this.lastName = lastName;
+        this.sueldo = sueldo
+    }
+}
+
+let employ1 = new  Employ('paco', 'rojas', 1500);
+
+employ1.name;
