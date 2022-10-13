@@ -10,4 +10,25 @@ void main(){
     print('ni azul, ni blanco');
 
   }
+
+
+  //switch
+  var dev = 'pepe';
+  switch (dev) {
+    case 'paco':
+        print('soy el dev paco');
+      break;
+    case 'pepe':
+        print('soy el dev pepe');
+      break;
+    default:
+        print('soy el dev desconocido');
+  }
+
+
+//game
+
+
+
+
 }
