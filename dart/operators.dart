@@ -1,6 +1,6 @@
 void main(){
   int a = 10;
-  int b = 25;
+  int b = 10;
 
   print(a + b);
   print(a - b);
@@ -12,4 +12,10 @@ void main(){
   print(a);
   b++;
   print(b);
+  print(a < b);
+  print(a > b);
+  print(a <= b);
+  print(a >= b);
+  print(a = b);
+  print(a != b);
 }
