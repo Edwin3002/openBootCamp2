@@ -29,22 +29,24 @@ void main(){
 
 
 //game
-print(' como te llamas?');
 
-String name = stdin.readLineSync()!;
+// String name = stdin.readLineSync()!;
 
-print('vas por una road, vas a la right o left?');
-print('right or left');
-String adrees = stdin.readLineSync()!;
+// print('vas por una road, vas a la right o left?');
+// print('right or left');
+// String adrees = stdin.readLineSync()!;
 
-if(adrees == 'left'){
+// if(adrees == 'left'){
   
-  print('llegas a un parque');
-}else if(adrees == 'right'){
-  print('llegas a un cine');
-}else{
-  print(' you lose');
-}
+//   print('llegas a un parque');
+// }else if(adrees == 'right'){
+//   print('llegas a un cine');
+// }else{
+//   print(' you lose');
+// }
 
-
+assert(true);
+  print('fin del progrma');
+assert(false);
+  print('fin del progrma2');
 }
