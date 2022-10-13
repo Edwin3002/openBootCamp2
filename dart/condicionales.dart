@@ -1,3 +1,5 @@
+import 'dart:io';
+
 void main(){
 
   var sky = 'blue';
@@ -27,8 +29,22 @@ void main(){
 
 
 //game
+print(' como te llamas?');
 
+String name = stdin.readLineSync()!;
 
+print('vas por una road, vas a la right o left?');
+print('right or left');
+String adrees = stdin.readLineSync()!;
+
+if(adrees == 'left'){
+  
+  print('llegas a un parque');
+}else if(adrees == 'right'){
+  print('llegas a un cine');
+}else{
+  print(' you lose');
+}
 
 
 }
