@@ -14,5 +14,5 @@ void main() {
   print(paco.gluten);
 
   bool? glu = paco.gluten;
-  glu! ? print('azucar') : print('natural');
+  glu! ? print('azucar dos') : print('natural dos');
 }
