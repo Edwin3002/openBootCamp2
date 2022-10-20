@@ -1,5 +1,5 @@
 void main(){
-  int a;
-  a = null;
-  print(a);
+  // int a;
+  // a = null;
+  // print(a);
 }
